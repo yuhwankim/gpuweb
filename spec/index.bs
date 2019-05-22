@@ -282,10 +282,12 @@ interface GPUShaderStageBit {
 enum GPUBindingType {
     "uniform-buffer",
     "dynamic-uniform-buffer",
-    "sampler",
-    "sampled-texture",
     "storage-buffer",
-    "dynamic-storage-buffer"
+    "dynamic-storage-buffer",
+    "readonly-storage-buffer",
+    "dynamic-readonly-storage-buffer",
+    "sampler",
+    "sampled-texture"
     // TODO other binding types
 };
 
